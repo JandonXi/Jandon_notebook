@@ -28,7 +28,7 @@ You can now compile the Livox SDK in Visual Studio.
 1. When excete `.\third_party\apr\apr_build.bat` cmd report some erros lead to fail to compile apr.   
 2. After excete `cmake ..`, use vs-2017 compile sdk some outer symbol can not be parsed.
 ### My method
-Open apr_build.bat can find it just do two things: install and compile apr  ||  use cmake build sdk project
+Open apr_build.bat can find it just do two things: install and compile apr & use cmake build sdk project
 #### 1.Install and compile apr
 apr-1.6.5 has been in our sdk_package
 ```
