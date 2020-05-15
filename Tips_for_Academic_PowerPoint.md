@@ -27,10 +27,10 @@
    * 致谢后放补充材料
 
 3. 优质ppt
-![John A Rogers](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/John%20A%20Rogers.jpg)
-![title](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Title.jpg)
-![Introduction](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Introduction.jpg)
-![Interpret](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Interpret.jpg)
-![Data](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Data.jpg)
-![Experiment_001](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Experiment_001.jpg)
-![Experiment_002](https://github.com/JandonXi/hello-world/blob/master/res/PowerPoint_Image/Experiment_002.jpg)
+![John A Rogers](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/John%20A%20Rogers.jpg)
+![title](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Title.jpg)
+![Introduction](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Introduction.jpg)
+![Interpret](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Interpret.jpg)
+![Data](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Data.jpg)
+![Experiment_001](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Experiment_001.jpg)
+![Experiment_002](https://github.com/JandonXi/Jandon-notebook/blob/master/Resource/PowerPoint_Images/Experiment_002.jpg)
