@@ -27,6 +27,7 @@ if failed and error like 'sudo rosdep init error: cannot download default source
 sudo gedit /etc/hosts
 # 在文件末尾添加如下语句,保存并退出
 151.101.84.133 raw.githubusercontent.com
+```
 ### 2.6 Environment setup
 ```
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
