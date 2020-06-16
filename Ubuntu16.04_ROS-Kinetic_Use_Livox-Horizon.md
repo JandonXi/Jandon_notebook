@@ -41,5 +41,36 @@ sudo apt install python-rosinstall python-rosinstall-generator python-wstool bui
 ```
 $ sudo apt-get remove ros-kinetic-*
 ```
+## step 3 Compile Livox-SDK
+### Dependencies
+Livox SDK requires [CMake 3.0.0+](https://cmake.org/) as dependencies. You can install these packages using apt:
+```
+sudo apt install cmake pkg-config
+```
+### Compile
 
+In the Livox SDK directory, run the following commands to compile the project:
+```
+git clone https://github.com/Livox-SDK/Livox-SDK.git
+cd Livox-SDK
+```
+Install apr library by:
+
+```
+sudo ./third_party/apr/apr_build.sh
+```
+
+or by:
+
+```
+sudo apt install libapr1-dev
+```
+
+then
+
+```
+cd build && cmake ..
+make
+sudo make install
+```
 
