@@ -42,12 +42,12 @@ sudo apt install python-rosinstall python-rosinstall-generator python-wstool bui
 $ sudo apt-get remove ros-kinetic-*
 ```
 ## step 3 Compile Livox-SDK
-### Dependencies
+### 3.1 Dependencies
 Livox SDK requires [CMake 3.0.0+](https://cmake.org/) as dependencies. You can install these packages using apt:
 ```
 sudo apt install cmake pkg-config
 ```
-### Compile
+### 3.2 Compile
 
 In the Livox SDK directory, run the following commands to compile the project:
 ```
@@ -73,4 +73,13 @@ cd build && cmake ..
 make
 sudo make install
 ```
+## step 4 Install Livox-Ros-Driver
+### 4.1 Get and build livox_ros_driver
+Get livox_ros_driver from GitHub :  
+`git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src`
+Use the following command to build livox_ros_driver :
+   ```bash
+   cd ws_livox
+   catkin_make
+   ```
 
