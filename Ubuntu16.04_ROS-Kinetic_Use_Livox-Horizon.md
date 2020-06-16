@@ -78,8 +78,10 @@ sudo make install
 Get livox_ros_driver from GitHub :  
 `git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src`
 Use the following command to build livox_ros_driver :
-   ```bash
-   cd ws_livox
-   catkin_make
-   ```
-
+```bash
+cd ws_livox
+catkin_make
+```
+Use the following command to update the current ROS package environment :  
+`source ./devel/setup.sh`
+### 4.2 Run livox_ros_driver
