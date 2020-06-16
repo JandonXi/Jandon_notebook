@@ -38,6 +38,8 @@ source ~/.bashrc
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
 ### 2.8 `Remove` Ros-Kinetic
-
+```
+$ sudo apt-get remove ros-kinetic-*
+```
 
 
