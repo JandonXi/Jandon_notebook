@@ -56,7 +56,7 @@ cd Livox-SDK
 ```
 Install apr library by:
 
-```
+```bash
 sudo ./third_party/apr/apr_build.sh
 ```
 
@@ -80,7 +80,7 @@ Get livox_ros_driver from GitHub :
 git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src
 ```
 Use the following command to build livox_ros_driver :
-```bash
+```
 cd ws_livox
 catkin_make
 ```
