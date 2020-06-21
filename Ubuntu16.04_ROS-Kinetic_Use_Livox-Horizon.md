@@ -37,7 +37,7 @@ source ~/.bashrc
 ```
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
-### 2.8 `Remove` Ros-Kinetic
+### 2.8 `Remove Ros-Kinetic`
 ```
 $ sudo apt-get remove ros-kinetic-*
 ```
@@ -89,3 +89,7 @@ Use the following command to update the current ROS package environment :
 source ./devel/setup.sh
 ```
 ### 4.2 Run livox_ros_driver
+命令格式如下：
+```
+roslaunch livox_ros_driver [launch file] [param]
+```
