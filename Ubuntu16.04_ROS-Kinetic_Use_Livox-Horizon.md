@@ -114,4 +114,13 @@ sudo apt-get install libatlas-base-dev
 sudo apt-get install libeigen3-dev
 sudo apt-get install libsuitesparse-dev
 ```
+Download Ceres
 
+Build and Install
+```
+tar zxf ceres-solver-1.14.0.tar.gz
+mkdir ceres-bin
+cd ceres-bin
+cmake ../ceres-solver-1.14.0
+make -j3
+```
