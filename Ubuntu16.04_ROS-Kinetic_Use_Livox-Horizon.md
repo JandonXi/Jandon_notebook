@@ -105,8 +105,8 @@ Install Eigen
 sudo apt-get install libeigen3-dev
 # 默认安装到 /usr/include/，如果不是，复制移动
 ```
-**Install Ceres-Solver**
-install dependencies -cmake -google-glog + gflags -blas & lapack -eigen3 -suitesparse and cxsparse
+**Install Ceres-Solver**    
+* install dependencies -cmake -google-glog + gflags -blas & lapack -eigen3 -suitesparse and cxsparse
 ```
 sudo apt-get install cmake
 sudo apt-get install libgoogle-glog-dev
@@ -114,9 +114,9 @@ sudo apt-get install libatlas-base-dev
 sudo apt-get install libeigen3-dev
 sudo apt-get install libsuitesparse-dev
 ```
-Download Ceres
+* download Ceres
 
-Build and Install
+* build and install
 ```
 tar zxf ceres-solver-1.14.0.tar.gz
 mkdir ceres-bin
