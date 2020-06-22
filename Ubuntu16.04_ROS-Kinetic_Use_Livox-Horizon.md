@@ -115,6 +115,7 @@ sudo apt-get install libeigen3-dev
     sudo apt-get install libsuitesparse-dev
     ```
 * Download Ceres
+[Ceres-Solver](http://ceres-solver.org/)
 
 * Build and install
     ```
