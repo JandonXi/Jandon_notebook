@@ -126,3 +126,11 @@ sudo apt-get install libeigen3-dev
     make -j3
     sudo make install 
     ```
+### 5.2 Download source code and compile
+```
+git clone https://github.com/Livox-SDK/livox_camera_lidar_calibration.git
+cd livox_camera_lidar_calibration
+catkin_make
+source devel/setup.bash
+```
+创建工作空间
