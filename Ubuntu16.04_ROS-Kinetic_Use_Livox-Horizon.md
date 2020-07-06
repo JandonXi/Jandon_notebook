@@ -2,6 +2,7 @@
 ## step 1 Install Ubuntu16.04
 
 ## step 2 Install Ros-Kinetic
+[Install Ros-Kinetic](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
 ### 2.1 Configure Ubuntu repositories allow "restricted," "universe," and "multiverse."
 ### 2.2 Set up sources.list
 ```
