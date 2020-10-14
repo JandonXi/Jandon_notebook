@@ -33,7 +33,7 @@ new分配失败不会像`malloc`返回NULL,而是抛出异常（`bad_allloc`),�
 **成功返回**：new分配内存成功，返回对象类型的指针，malloc分配成功返回`void*`，需要类型转换  
 **失败返回**：new内存分配失败抛出`bad_allloc`异常，malloc返回NULL   
 **自定义类型**：new先调用`operator_new`函数，申请足够的内存（底层使用malloc实现），然后调用类型的构造函数，初始化成员变量，最后返回类型的指针；delete先调用析构函数，然后调用`operator_delete`释放内存（底层使用free实现）。malloc/free是C库函数，只能动态申请和释放内存，无法强制要求其对类型构造析构  
-**重载**：C++允许重载new/delete操作符，malloc/free库函数不允许重载 
+**重载**：C++允许重载new/delete操作符，malloc/free库函数不允许重载     
 **内存区域**：new从自由存储区分配空间，malloc从堆上分配，自由存储区为C++基于new操作符的抽象概念，凡是new申请的内存即为自由存储区    
 ## 4.struct和class的异同
 |  C/C++中struct比较  |  C  |  C++  |
