@@ -49,3 +49,22 @@ source ~/turtlebot_ws/kobuki/devel/setup.bash
 rosdep install --from-paths src -i -y
 catkin_make
 ```
+## 3.环境配置
+添加环境变量：
+```bash
+source ~/turtlebot_ws/turtlebot/devel/setup.bash
+```
+查看是否添加成功：
+```bash
+sudo gedit ~/.bashrc
+```
+## 4.测试使用
+连接turtlebot与主机，启动`roscore`,生成kobuki别名：
+```bash
+rosrun kobuki_ftdi create_udev_rules
+```
+启动turtlebot并使用键盘控制：
+```bash
+roslaunch turtlebot_bringup minimal.launch 
+roslaunch turtlebot_teleop keyboard_teleop.launch
+```
