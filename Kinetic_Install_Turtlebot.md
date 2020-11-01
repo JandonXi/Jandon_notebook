@@ -54,10 +54,6 @@ catkin_make
 ```bash
 source ~/turtlebot_ws/turtlebot/devel/setup.bash
 ```
-查看是否添加成功：
-```bash
-sudo gedit ~/.bashrc
-```
 ## 4.测试使用
 连接turtlebot与主机，启动`roscore`,生成kobuki别名：
 ```bash
