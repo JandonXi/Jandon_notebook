@@ -3,7 +3,7 @@
 [Ubuntu安装教程](https://ubuntu.com/tutorials/install-ubuntu-desktop)     
 [Ubuntu16.04 镜像下载](https://releases.ubuntu.com/?_ga=2.86995736.1014249643.1604302018-1117975173.1604302018)
 ## 2.安装ROS_Kinetic
-[安装ROS_Kinetic](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
+[安装ROS_Kinetic中文教程](http://wiki.ros.org/cn/kinetic/Installation/Ubuntu)
 ### 2.1 配置 Ubuntu 软件仓库以允许 "restricted"、"universe" 和 "multiverse"这三种安装模式
 ### 2.2 添加 sources.list(建议采用国内源）
 ```bash
