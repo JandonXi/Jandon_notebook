@@ -5,3 +5,5 @@
   * C/C++
   * CMake
   * CMake Tools
+* [Mingw download](https://sourceforge.net/projects/mingw-w64/files/)
+* [CMake downlood](https://cmake.org/download/)
