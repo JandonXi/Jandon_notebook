@@ -1,4 +1,4 @@
-# Tips_for_Academic_PowerPoint
+# Tips for Academic PowerPoint
 
 ##  规范
 
