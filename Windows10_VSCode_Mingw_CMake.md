@@ -14,13 +14,14 @@
 ## 2.C++编译与调试
 * 基于`g++`命令
 * 基于`tasks.json`和`launch.json`文件
-* 基于cmake
+* 基于`cmake`
 ## 3.[从零创建一个CMakeProject](https://code.visualstudio.com/docs/cpp/cmake-linux)
 ## 4.win10、VSCode、Mingw下配置OpenCV
 ### 4.1软件版本：(注意这里的版本与上面所述存在差异）
+建议直接使用编译好的文件[OpenCV-MinGW-Build](https://github.com/huihut/OpenCV-MinGW-Build)，而不是用cmake自己编译 
 * [MinGW-x86_64-8.1.0-posix-seh-rt_v6-rev0](https://sourceforge.net/projects/mingw-w64/files/)
 * [CMake-3.14.1](https://github.com/Kitware/CMake/releases?after=v3.15.0-rc3)
-* [OpenCV-4.1.1-x64](https://github.com/huihut/OpenCV-MinGW-Build)
+* [OpenCV-4.1.1-x64](https://github.com/huihut/OpenCV-MinGW-Build) 
 把三个软件bin路径加入环境变量
 ### 4.2VSCode使用CMake编写OpenCV项目
 * 创建一个空的项目文件夹`opencv_test`
