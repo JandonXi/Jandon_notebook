@@ -45,7 +45,7 @@ using namespace std;
 
 int main()
 {
-    Mat img=imread("E:\\vscode_test\\src\\hhu.png");
+    Mat img=imread("..\\src\\test.png");
     if(img.empty())
         cout<<"empty"<<endl;
     else
